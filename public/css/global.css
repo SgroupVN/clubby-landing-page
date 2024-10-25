@@ -1,0 +1,80 @@
+button,button:focus {
+  border: none;
+  outline: none;
+}
+
+.title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 59px;
+  color: #136FCA;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.animate-left-to-right {
+  animation-name: animate-left-to-right;
+  animation-duration: 1s;
+}
+
+.animate-right-to-left {
+  animation-name: animate-right-to-left;
+  animation-duration: 1s;
+}
+
+.animate-ltr {
+  transform: translateX(-150%);
+}
+
+.animate-rtl {
+  transform: translateX(150%);
+}
+
+/* Fading animation */
+.fade-custom {
+  -webkit-animation-name: fade;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes animate-left-to-right {
+  from {transform: translateX(-150%)}
+  to {transform: translateX(0);}
+}
+
+@keyframes animate-right-to-left {
+  from {transform: translateX(150%)}
+  to {transform: translateX(0);}
+}
+@media (min-width: 320px) and (max-width: 575.98px) {
+  .title {
+    font-size: 24px;
+    line-height: 59px;
+  }
+  .slider-header-child {
+    font-size: 12px !important;
+  }
+  .slider-item-name {
+    font-size: 14px !important;
+  }
+  .slider-item-position {
+    font-size: 12px !important;
+  }
+}

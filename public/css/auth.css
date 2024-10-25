@@ -1,0 +1,298 @@
+.auth-section {
+  background-image: url("../images/auth.svg");
+  /* width: 100%; */
+  background-repeat: no-repeat;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  padding-bottom: 100px;
+  position: relative;
+  z-index: 3;
+}
+.auth-left-bg {
+  position: absolute;
+  top: 0;
+  z-index: -3;
+  left: 0;
+}
+.auth-right-bg {
+  position: absolute;
+  bottom: -200px;
+  right: 0;
+  z-index: -3;
+}
+.auth-title h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  margin-top: 150px;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: center;
+  color: #ffffff;
+}
+.auth-title p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 160%;
+  text-align: center;
+  max-height: fit-content;
+  color: #ffffff;
+}
+
+.auth-content-register {
+  /* padding: 28px 180px; */
+  width: 100%;
+  height: 50px;
+  border-radius: 4px;
+  background: #005398;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 120%;
+  text-align: center;
+  color: #ffffff;
+  z-index: 999;
+  cursor: pointer;
+}
+
+.auth-content-login {
+  /* padding: 28px 180px; */
+  width: 100%;
+  cursor: pointer;
+  height: 50px;
+  border-radius: 4px;
+  background: #ffffff;
+  font-family: Montserrat;
+  z-index: 999;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 120%;
+  text-align: center;
+  color: #005398;
+}
+.auth-content-app-left {
+  width: 100%;
+  cursor: pointer;
+  height: 50px;
+  border-radius: 4px;
+  background: #ffffff;
+  font-family: Montserrat;
+  z-index: 999;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 120%;
+  text-align: center;
+  color: #005398;
+}
+.auth-content-app-right {
+  width: 100%;
+  cursor: pointer;
+  height: 50px;
+  border-radius: 4px;
+  background: transparent;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 120%;
+  text-align: center;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+.popup-title {
+  background: #ffffff;
+  box-shadow: 0px 0px 140px rgba(19, 39, 58, 0.19);
+  padding: 20px 30px;
+}
+.modal-content {
+  width: 1000px;
+  left: -50%;
+  padding: 30px 80px;
+  background: #e5e5e5;
+  margin: 0 auto;
+}
+
+.popup-title p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 160%;
+  text-align: center;
+  color: #000000;
+}
+
+.pop-up-content {
+  background: #f0f0f0;
+  padding: 30px 30px;
+  text-align: center;
+}
+.pop-up-content h3 {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 160%;
+  text-align: center;
+  color: #505050;
+}
+.join-button {
+  width: 80%;
+  background: #005398;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 120%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.form-group input {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 120%;
+  color: #000000;
+  opacity: 0.6;
+  border: none;
+  padding-bottom: 15px;
+}
+@media(max-width: 1000px) {
+  .modal-content {
+      width: 800px;
+      left: -28%;
+      padding: 20px 80px;
+  }
+}
+
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .modal {
+    width: 600px;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .popup-title {
+    background: #ffffff;
+    box-shadow: 0px 0px 140px rgba(19, 39, 58, 0.19);
+    padding: 20px 10px;
+}
+form {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.modal-header {
+  padding-right: 50px;
+  padding-left: 250px;
+}
+.modal-content {
+  margin-left: 65px;
+  width: 700px;
+  left: -33%;
+  padding: 20px 40px;
+}
+
+}
+
+@media (min-width: 426px) and (max-width: 572px) {
+  .popup-title {
+    padding: 20px 0px;
+}
+form {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.modal-content {
+  width: 450px;
+    left: 0%;
+  margin-left: 60px;
+  padding: 20px 0px;
+}
+.pop-up-content {
+  padding-bottom: 15px;
+  margin-top: 0px !important;
+}
+.modal-body {
+  padding-top: 0px;
+}
+}
+
+@media (min-width: 380px) and (max-width: 425px) {
+  .modal-content {
+    width: 100%;
+    left: 0%;
+    margin-left: 0px;
+    padding: 20px 0px;
+}
+.popup-title {
+  padding: 20px 5px;
+}
+.popup-title p {
+  font-size: 16px;
+}
+.pop-up-content {
+  padding: 30px 0px;
+}
+.pop-up-content h3 {
+  font-size: 20px;
+}
+.pop-up-content .row {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+}
+@media (min-width: 320px) and (max-width: 379px) {
+  .modal-content {
+    width: 100%;
+    left: 0%;
+    margin-left: 0px;
+    padding: 20px 0px;
+}
+.popup-title {
+  padding: 20px 5px;
+}
+.popup-title p {
+  font-size: 16px;
+}
+.pop-up-content {
+  padding: 30px 0px;
+}
+.pop-up-content h3 {
+  font-size: 20px;
+}
+.pop-up-content .row {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+}
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+.auth-title h1 {
+  font-size: 40px !important;
+  line-height: 120%;
+}
+.auth-title p {
+  font-size: 12px !important;
+  line-height: 120%;
+}
+.app-left,
+.app-right {
+  max-width: 128px !important;
+}
+.auth-content-login,
+.auth-content-register {
+  max-width: 160px !important;
+}
+.auth-register {
+  text-align: right !important;
+}
+.auth-login {
+  text-align: left !important;
+}
+}

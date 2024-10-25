@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap 4 CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom css -->
+    <link rel="stylesheet" href="./public/css/global.css" />
+    <link rel="stylesheet" href="./public/css/header.css" />
+    <link rel="stylesheet" href="./public/css/introduction.css" />
+    <link rel="stylesheet" href="./public/css/description.css" />
+    <link rel="stylesheet" href="./public/css/origin.css" />
+    <link rel="stylesheet" href="./public/css/feature.css" />
+    <link rel="stylesheet" href="./public/css/user.css" />
+    <link rel="stylesheet" href="./public/css/team.css" />
+    <link rel="stylesheet" href="./public/css/footer.css" />
+    <link rel="stylesheet" href="./public/css/auth.css" />
+    <link rel="stylesheet" href="./public/css/external.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <title>Clubby</title>
+  </head>
+
+  <body>
+    <!-- Header section -->
+    <div class="header overflow-hidden" id="header">
+      <div class="container-fluid header-container">
+        <div class="row">
+          <div class="col-12 position-relative">
+            <div class="header-logo">
+              <img src="./public/images/Sgr_Logo-symbol-color 1.svg">
+              <span class="text-logo">Clubby</span>
+            </div>
+          </div>
+        </div>
+        <div class="row header-text-container">
+          <div class="col-12 col-lg-6 header-text-sub-container">
+            <p class="header-title">Chào mừng bạn đến với</p>
+            <p class="header-brand">CLUBBY Story</p>
+            <p class="header-description">
+              Clubby là một dự án dành cho sinh viên và các câu lạc bộ. 
+              Đăng ký ngay để trở thành một trong những người đầu tiên sử dụng sản phẩm.
+            </p>
+            <button
+              class="header-button"
+              data-toggle="modal"
+              data-target="#signUpModal"
+            >
+              <span class="header-button-text">Đăng ký ngay</span>
+            </button>
+          </div>
+          <div
+            class="d-none d-lg-block col-lg-6 position-relative small-screen"
+          >
+            <div class="position-absolute smooth-slide-image w-100 h-100">
+              <img
+                src="./public/images/header-phone-1.min.svg"
+                alt="phone"
+                style="width: 100%; height: auto"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Introduction section -->
+    <div class="container-fluid introduction-container">
+      <div class="row">
+        <div class="col-12 col-lg-7 small-screen position-relative">
+          <div style="min-height: 420px; position: relative">
+            <img
+              src="./public/images/header-phone-2.min.svg"
+              alt="phone"
+              style="width: 100%; position: absolute; bottom: 0"
+              id="phone"
+            />
+            <img
+              id="phone-piece-1"
+              src="./public/images/header-phone-2-1.min.svg"
+              alt="phone"
+              class="smooth-slide-phone-1"
+            />
+            <img
+              id="phone-piece-2"
+              src="./public/images/header-phone-2-2.min.svg"
+              alt="phone"
+              class="smooth-slide-phone-2"
+            />
+          </div>
+        </div>
+        <div class="col-12 col-lg-5 introduction">
+          <p class="introduction-title">
+            Clubby là gì? <span class="underline-small-screen">____</span>
+          </p>
+          <p class="introduction-subtitle">
+            Clubby là nền tảng kết nối giữa các câu lạc bộ, các bạn học sinh và
+            sinh viên với mong muốn tìm hiểu tham gia vào một tổ chức phù hợp
+            với bản thân.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Description section -->
+    <div class="container-fluid description-container">
+      <div class="row">
+        <div class="col-12 col-xl-5 wrap-description">
+          <p class="description-title">Thành viên</p>
+          <p class="description-subtitle">
+            Là nơi giúp các câu lạc bộ, đội, nhóm quảng bá, truyền thông về hình
+            ảnh, định vị những nét đặc trưng riêng biệt, thu hút các thành viên
+            mới gia nhập vào đại gia đình của mình.
+          </p>
+          <p class="description-title">Các câu lạc bộ đội nhóm</p>
+          <p class="description-subtitle">
+            Giúp cho các câu lạc bộ quản lý thành viên một cách hiệu quả thông
+            qua ứng dụng xếp lịch, đánh giá.
+          </p>
+        </div>
+        <div class="col-12 col-xl-7">
+          <div class="wrap-circle">
+            <div class="qLoader2-scroll"></div>
+            <!-- calendar -->
+            <img
+              class="wrap-calender"
+              src="./public/images/description-section/eclipse84.min.svg"
+              alt=""
+            />
+            <img
+              class="calender"
+              src="./public/images/description-section/group413.min.svg"
+              alt=""
+            />
+            <!-- clock -->
+            <img
+              class="wrap-clock"
+              src="./public/images/description-section/eclipse81.min.svg"
+              alt=""
+            />
+            <img
+              class="clock"
+              src="./public/images/description-section/group415.min.svg"
+              alt=""
+            />
+            <!-- user -->
+            <img
+              class="wrap-user"
+              src="./public/images/description-section/eclipse83.min.svg"
+              alt=""
+            />
+            <img
+              class="user"
+              src="./public/images/description-section/user.min.svg"
+              alt=""
+            />
+            <!-- share -->
+            <img
+              class="wrap-share"
+              src="./public/images/description-section/eclipse87.min.svg"
+              alt=""
+            />
+            <img
+              class="share"
+              src="./public/images/description-section/group411.min.svg"
+              alt=""
+            />
+            <!-- heart -->
+            <img
+              class="wrap-heart"
+              src="./public/images/description-section/eclipse86.min.svg"
+              alt=""
+            />
+            <img
+              class="heart"
+              src="./public/images/description-section/group420.min.svg"
+              alt=""
+            />
+            <!-- Text event -->
+            <div class="event-cmt">
+              <img
+                src="./public/images/description-section/manage-cmt.min.svg"
+                alt=""
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 10%;
+                  text-align: center;
+                  width: 100%;
+                  color: #fff;
+                "
+              >
+                Sự kiện
+              </p>
+            </div>
+            <!-- Text calendar -->
+            <div id="event-2" class="calendar-cmt">
+              <img
+                src="./public/images/description-section/calendar-cmt.min.svg"
+                alt=""
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 10%;
+                  text-align: center;
+                  width: 100%;
+                  color: #fff;
+                "
+              >
+                Lên lịch
+              </p>
+            </div>
+            <!-- Text manage -->
+            <div id="event-3" class="manage-cmt">
+              <img
+                src="./public/images/description-section/manage-cmt.min.svg"
+                alt=""
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 10%;
+                  text-align: center;
+                  width: 100%;
+                  color: #fff;
+                "
+              >
+                Quản lý
+              </p>
+            </div>
+            <!-- Text connect -->
+            <div id="event-4" class="connect-cmt">
+              <img
+                src="./public/images/description-section/connect-cmt.min.svg"
+                alt=""
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 10%;
+                  text-align: center;
+                  width: 100%;
+                  color: #fff;
+                "
+              >
+                Kết nối
+              </p>
+            </div>
+            <!-- Text share -->
+            <div id="event-5" class="share-cmt">
+              <img
+                src="./public/images/description-section/share-cmt.min.svg"
+                alt=""
+              />
+              <p
+                style="
+                  position: absolute;
+                  top: 10%;
+                  text-align: center;
+                  width: 100%;
+                  color: #fff;
+                "
+              >
+                Chia sẻ
+              </p>
+            </div>
+
+            <div class="wrap-circle-inside scale-animation">
+              <div class="circle">
+                <img
+                  class="person"
+                  src="./public/images/description-section/person.min.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <!-- <img src="./public/images/description.min.svg" class="description-image" alt="phone"> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Origin section -->
+    <div class="container-fluid origin-container">
+      <div class="row">
+        <div class="col-12">
+          <p class="origin-title">Lý do ra đời <span class="underline-small-screen">____</span></p>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-lg-12 col-xl-4 wrap-origin">
+          <img src="./public/images/origin-1.min.svg" class="origin-image" />
+          <p class="origin-content">Chia sẻ, quảng bá truyền thông</p>
+          <p class="origin-subcontent">
+            Clubby là nền tảng chia sẻ, quảng bá truyền thông rộng rãi về, màu sắc riêng của từng câu lạc bộ.
+          </p>
+        </div>
+        <div class="col-lg-12 col-xl-4 wrap-origin">
+          <img src="./public/images/origin-2.min.svg" class="origin-image" />
+          <p class="origin-content">Tính năng quản lý hoạt động</p>
+          <p class="origin-subcontent">
+            Clubby còn mang lại tính năng quản lý hoạt động thành viên một cách hiệu quả, mới lạ.
+          </p>
+        </div>
+        <div class="col-lg-12 col-xl-4 wrap-origin">
+          <img src="./public/images/origin-3.min.svg" class="origin-image" />
+          <p class="origin-content">Nền tảng kết nối mọi người</p>
+          <p class="origin-subcontent">
+            Clubby còn là cơ hội để thu hút các bạn trẻ có cùng chung sở thích, ước mơ bản thân.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Feature section -->
+    <div class="container-fluid feature-container overflow-hidden">
+      <div class="row feature-phone-image justify-content-center">
+        <div class="col-12 col-lg-8">
+          <div class="feature-phone-image-block">
+            <img
+              src="./public/images/rev-2-4-1 2.svg"
+              alt=""
+              class="feature-phone-image-block-1"
+            />
+            <img
+              src="./public/images/rev-2-3-1 1.svg"
+              alt=""
+              class="feature-phone-image-block-2"
+            />
+            <img
+              src="./public/images/rev-2-4-1 1.svg"
+              alt=""
+              class="feature-phone-image-block-3"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="feature-bg">
+        <img src="./public/images/feature-bg.svg" alt="">
+      </div>
+    </div>
+
+    <div class="container-fluid feature-bottom">
+      <div class="row mt-5">
+        <div class="col-12">
+          <div class="tabs">
+            <input type="radio" id="tab1" name="tab-control" checked />
+            <input type="radio" id="tab2" name="tab-control" />
+            <input type="radio" id="tab3" name="tab-control" />
+            <ul>
+              <li title="Features" class="feature-title">
+                <label for="tab1" role="button"
+                  ><img src="./public/images/connect-icon.svg" alt="" /><span
+                    >Kết nối các câu lạc bộ
+                  </span></label
+                >
+              </li>
+              <li title="Delivery Contents" class="feature-title">
+                <label for="tab2" role="button"
+                  ><img src="./public/images/control-icon.svg" alt="" />
+                  <span>Kiểm soát, đánh giá thành viên</span></label
+                >
+              </li>
+              <li title="Shipping" class="feature-title">
+                <label for="tab3" role="button"
+                  ><img src="./public/images/choice-icon.svg" alt="" />
+                  <span>Dễ dàng đưa ra lựa chọn </span></label
+                >
+              </li>
+            </ul>
+
+            <div class="slider-feature">
+              <div class="indicator"></div>
+            </div>
+            <div class="content">
+              <section>
+                <div class="row">
+                  <div class="col-12 col-md-8 feature-text-box">
+                    <div class="row">
+                      <div class="col-12">
+                        <h1 class="slider-title" style="text-align: left">01. <span class="mobile-text">Kết nối</span></h1>
+                      </div>
+                      <div class="col-12">
+                        <p class="slider-subtitle">
+                          Clubby tạo môi trường cho các câu lạc bộ giao lưu, kết
+                          nối dễ dàng. để có thể trao đổi, hợp tác với nhau
+                          thông qua các sự kiện, hoạt động chung.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <img src="./public/images/phone-connect.svg" style="max-width: 100%" class="d-block mx-auto" alt="" />
+                  </div>
+                </div>
+              </section>
+              <section>
+                <div class="row">
+                  <div class="col-12 col-md-8 feature-text-box">
+                    <div class="row">
+                      <div class="col-12">
+                        <h1 class="slider-title" style="text-align: left">02. <span class="mobile-text">Quản lý</span></h1>
+                      </div>
+                      <div class="col-12">
+                        <p class="slider-subtitle">
+                          Clubby hiện thực hóa việc kiểm soát hoạt động, quản lý
+                          thành viên một cách đơn giản và hiệu quả nhất.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <img src="./public/images/phone-control.svg" style="max-width: 100%" class="d-block mx-auto" alt="" />
+                  </div>
+                </div>
+              </section>
+              <section>
+                <div class="row">
+                  <div class="col-12 col-md-8 feature-text-box">
+                    <div class="row">
+                      <div class="col-12">
+                        <h1 class="slider-title" style="text-align: left">03. <span class="mobile-text">Tìm kiếm</span></h1>
+                      </div>
+                      <div class="col-12">
+                        <p class="slider-subtitle">
+                          Tại Clubby, thành viên có thể tìm kiếm, đánh giá tổng
+                          quan về hoạt động, cách thức, quy mô, chuyên môn của
+                          từng câu lạc bộ một cách dễ dàng.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <img src="./public/images/choirce-phone.svg" style="max-width: 100%" class="d-block mx-auto" alt="" />
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="feature-bottom-background overflow-hidden">
+        <div class="feature-bottom-background-circle small-screen">
+          <img src="./public/images/slider-round-circle.svg" alt="" class="spinning-circle">
+        </div>
+      </div>
+    </div>
+    <!-- User section -->
+    <div id="user" class="container-fluid mb-5 user-container">
+      <div class="animate-ltr">
+        <div class="row mb-5">
+          <div class="col-12">
+            <p class="user-title">Đối tượng hướng tới <span class="underline-small-screen">____</span></p>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-12 col-xl-5">
+            <img
+              src="./public/images/user-1.min.svg"
+              class="user-img d-block ml-auto mr-auto mb-4"
+            />
+          </div>
+          <div class="col-12 col-xl-7">
+            <p class="user-content">Học sinh, sinh viên</p>
+            <p class="user-subcontent">
+              Clubby là nền tảng bao gồm các câu lạc bộ chính quy, là nơi cung
+              cấp thông tin hữu ích và chính xác nhất đến các bạn học sinh, sinh
+              viên ngày nay khi có nhu cầu tham gia một câu lạc bộ để phát triển
+              bản thân.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row animate-rtl">
+        <div class="col-12 col-xl-5 d-block d-xl-none">
+          <img
+            src="./public/images/user-2.min.svg"
+            class="d-block user-img ml-auto mr-auto mb-4"
+          />
+        </div>
+        <div class="col-12 col-xl-7">
+          <p class="user-content">
+            Ban chủ nhiệm, ban điều hành của câu lạc bộ
+          </p>
+          <p class="user-subcontent">
+            Việc quản lý các thành viên theo lối truyền thông xưa đã quá lỗi
+            thời. Với Clubby, chỉ cần vài thao tác đơn giản là bạn đã có thể
+            quản lý hàng trăm thành viên một cách dễ dàng và nhanh chóng nhất.
+          </p>
+        </div>
+        <div class="col-12 col-xl-5 d-none d-xl-block">
+          <img
+            src="./public/images/user-2.min.svg"
+            style="max-width: 290px"
+            class="d-block ml-auto mr-auto mb-4"
+          />
+        </div>
+      </div>
+      <div class="row animate-ltr">
+        <div class="col-12 col-xl-5">
+          <img
+            src="./public/images/user-3.min.svg"
+            class="d-block user-img ml-auto mr-auto mb-4"
+          />
+        </div>
+        <div class="col-12 col-xl-7">
+          <p class="user-content">Cán bộ đoàn trường</p>
+          <p class="user-subcontent">
+            Những tính năng Clubby cho phép cán bộ đoàn trường nắm rõ tình hình
+            mọi hoạt động của CLB trong trường, đồng thời mang hình ảnh trường
+            học đến nhiều người hơn.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Team section -->
+    <div class="container-fluid team-container">
+      <!-- Title -->
+      <div class="row my-2">
+        <div class="col-12">
+          <p class="title">Đội ngũ thực hiện <span class="underline-small-screen">____</span></p>
+        </div>
+      </div>
+      <!-- Slide -->
+      <div class="row mt-5 mx-5">
+        <div class="col-12">
+          <!-- Slide header -->
+          <div class="row slider-header" id="slider-header"></div>
+          <!-- Slider -->
+          <div class="row slider" id="slider"></div>
+        </div>
+      </div>
+
+      <div class="team-right-background overflow-hidden">
+        <div class="team-right-background-circle small-screen">
+          <img src="./public/images/team-section/rolling.svg" alt="" class="spinning-circle">
+        </div>
+
+        <div class="team-left-background-circle small-screen">
+          <img src="./public/images/team-section/rolling-left.svg" alt="" class="spinning-circle">
+        </div>
+      </div>
+      
+    </div>
+    <!-- Login Section -->
+    <section class="container-fluid auth-section overflow-hidden">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-10 col-lg-10">
+          <div class="mt-3 auth-title">
+            <h1>
+              Clubby nền tảng kết nối các câu lạc bộ và sinh viên, học sinh
+            </h1>
+            <p>
+              Clubby là nền tảng kết nối giữa các câu lạc bộ, các bạn học sinh
+              và sinh viên với mong muốn tìm hiểu và  <span class="break-screen"> tham gia vào một tổ chức
+              phù hợp với bản thân. </span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row auth-content justify-content-center mt-3">
+        <div class="col-6 col-sm-12 text-center auth-register">
+          <button
+            type="button"
+            class="auth-content-register mt-4"
+            data-toggle="modal"
+            data-target="#signUpModal"
+            style="max-width: 399px"
+          >
+            Đăng ký ngay
+          </button>
+        </div>
+        <div class="col-6 col-sm-12 text-center auth-login">
+          <button
+          type="button"
+          class="auth-content-login mt-4"
+          data-toggle="modal"
+          data-target="#signUpModal"
+          style="max-width: 399px"
+        >
+          Đăng nhập
+        </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 text-right">
+          <button
+            type="button"
+            class="auth-content-app-left app-left mt-4"
+            data-toggle="modal"
+            data-target="#signUpModal"
+            style="max-width: 130px"
+          >
+            <img src="./public/images/app-store.svg" alt="" />
+            <span style="margin-left: 5px">App Store</span>
+          </button>
+        </div>
+        <div class="col-6 text-left">
+          <button
+            type="button"
+            class="auth-content-app-right app-right mt-4"
+            data-toggle="modal"
+            data-target="#signUpModal"
+            style="max-width: 130px"
+          >
+            <img src="./public/images/playStore.svg" alt="" />
+            <span style="margin-left: 5px">CH Play</span>
+          </button>
+        </div>
+      </div>
+      <div class="auth-left-bg">
+        <img src="./public/images/Bg.svg" alt="" />
+      </div>
+      <div class="auth-right-bg">
+        <img src="./public/images/right-bg.svg" alt="" />
+      </div>
+    </section>
+    <!-- Footer Section -->
+    <section class="container-fluid footer-section">
+      <div class="footer-connor">
+        <img src="./public/images/footer.svg" alt="" />
+      </div>
+      <div class="footer-content row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-7 footer-content">
+          <h1 class="footer-content-title">CLUBBY</h1>
+          <p class="footer-content-intro">
+            Clubby là nền tảng kết nối giữa các câu lạc bộ, các bạn học sinh và
+            sinh viên với mong muốn tìm hiểu và tham gia vào một tổ chức phù hợp
+            với bản thân.
+          </p>
+          <div class="footer-content-information">
+            <div class="row">
+              <div class="col-12 col-xl-6 col-sm-12 col-md-6 col-lg-5">
+                <div class="information-detail">
+                  <p>
+                    <i class="fas fa-home"></i
+                    >
+                    <span>225 An Dương Vương, P. Mỹ An,</span>
+                    <span class="m-0 mobile-screen">Q. Ngũ Hành Sơn, Đà Nẵng</span>
+                  </p>
+                </div>
+                <div class="information-detail">
+                  <p><i class="fas fa-phone"></i><span>0342586189</span></p>
+                </div>
+                <div class="information-detail">
+                  <p>
+                    <i class="fas fa-envelope-square"></i
+                    ><span>contact@clubby.vn</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-12 join-us col-lg-5 mt-3">
+          <h1>Tham gia khảo sát</h1>
+          <p>Tham gia ngay để giúp clubby đến gần hơn với người dùng</p>
+          <a class="typeform-share typeform-button" href="https://form.typeform.com/to/tLWUJj16?typeform-medium=embed-snippet" data-mode="popup" data-size="100">Tham gia ngay </a> 
+        </div>
+      </div>
+      <hr style="background: #005398"/>
+
+      <div class="row extend-footer">
+        <div class="col-12 col-lg-4 col-md-4 inside">
+          <button class="button-footer row">
+            <a class="col-4 img" href="https://sgroupvn.org"><img
+              src="./public/images/Sgr_Logo-symbol-color 1.svg"
+              alt=""
+              
+            /></a>
+            
+            <a href="https://sgroupvn.org/" class="button-title col-8">
+              <p class="first-content">Được phát triển tại</p>
+              <p class="second-content">S-Group</p>
+            </a>
+          </button>
+        </div>
+        <div class="col-12 col-lg-4 col-md-4 copyright">
+          <p>&copy;Copyrights 2020 by S-Group</p>
+        </div>
+        <div class="col-12 col-lg-4 col-md-4 footer-icon">
+          <p>
+            <span class="px-3"><a href="https://www.facebook.com/Clubby-Vi%E1%BB%87t-Nam-103297711636972/" target="_blank"><i class="fab fa-facebook-f"></i></a></span>
+            <span class="px-3"><a href=""><i class="fab fa-instagram"></i></a></span>
+            <span class="px-3"><a href=""><i class="fab fa-google"></i></a></span>
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Back to top button -->
+    <div class="back-to-top-button" id="back-to-top-button" style="z-index: 100;">
+      <img src="./public/images/arrow.svg" />
+    </div>
+
+    <div
+      class="modal fade"
+      style="z-index: 10000;"
+      id="signUpModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="signUpModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <div class="modal-close-btn row">
+                <span aria-hidden="true">
+                  &times;
+                </span>
+              </div>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="popup-title">
+              <p>
+                Cảm ơn bạn đang quan tâm đến ứng dụng Clubby, Clubby hiện
+                đang trong giai đoạn hoàn thiện để đến gần hơn với người
+                dùng. Đăng ký trải nghiệm thử để nhận thông báo khi sản
+                phẩm hoàn thiện!
+              </p>
+            </div>
+            <div class="pop-up-content mt-4">
+              <h3>Đăng kí trải nghiệm thử</h3>
+              <div class="row justify-content-center">
+                <div class="col-12 col-lg-8 col-xl-8">
+                  <form>
+                    <div class="form-group popup-input-wrapper">
+                      <!-- <span class="popup-placeholder">Tên</span> -->
+                      <input
+                        type="text"
+                        class="form-control popup-input"
+                        id="exampleInputEmail1"
+                        aria-describedby="emailHelp"
+                        placeholder="Tên"
+                      />
+                    </div>
+                    <div class="form-group popup-input-wrapper">
+                      <!-- <span class="popup-placeholder">Email hoặc Sdt</span> -->
+                      <input
+                        type="email"
+                        class="form-control popup-input"
+                        id="exampleInputPassword1"
+                        placeholder="Email hoặc Sdt"
+                      />
+                    </div>
+                    <button
+                      type="submit"
+                      class="btn btn-primary join-button py-4"
+                    >
+                      Đăng ký ngay
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"
+  ></script>
+  <script src=" ./public/js/index.js"></script>
+  <script src="./public/js/header.js"></script>
+  <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+</html>

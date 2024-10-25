@@ -1,0 +1,97 @@
+.user-container {
+  padding-right: 12rem;
+  padding-left: 12rem;
+  background: url('../images/user-background.min.svg');
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  overflow-x: hidden;
+}
+.user-title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 59px;
+  color: #136FCA;
+}
+.user-content {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #136FCA;
+}
+.user-subcontent {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: justify;
+}
+.user-img {
+  max-width: 290px;
+}
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+  .user-container {
+    padding-right: 3rem;
+    padding-left: 3rem;
+    background: url('../images/user-background.min.svg');
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+  }
+  .user-img {
+    max-width: 220px;
+  }
+  .user-title {
+    font-size: 24px;
+    line-height: 59px;
+  }
+  .user-content {
+    font-size: 14px;
+  }
+  .user-subcontent {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .user-container {
+    padding-right: 6rem;
+    padding-left: 6rem;
+    background: url('../images/user-background.min.svg');
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 767.98px) and (max-width: 991.98px) {
+  .user-container {
+    padding-right: 12rem;
+    padding-left: 12rem;
+    background: url('../images/user-background.min.svg');
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+  }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .user-container {
+    margin-top: 0px;
+    padding-right: 7rem;
+    padding-left: 5rem;
+  }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 1200px) {
+  .user-container {
+    margin-top: 0px;
+    padding-right: 7rem;
+    padding-left: 5rem;
+  }
+}

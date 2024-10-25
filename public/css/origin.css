@@ -1,0 +1,113 @@
+.origin-container {
+  padding-right: 12rem;
+  padding-left: 12rem;
+  background: url('../images/origin-background.min.svg');
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 80%;
+  background-size: 90%;
+  height: 800px;
+}
+.origin-title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 59px;
+  color: #136FCA;
+}
+.origin-content {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #136FCA;
+  text-align: center;
+}
+.origin-subcontent {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 160%;
+  text-align: center;
+}
+.origin-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  width: 200px;
+}
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  .origin-container {
+    margin-top: 0px;
+    padding-right: 7rem;
+    padding-left: 7rem;
+    height: 1550px;
+  }
+  .origin-content {
+    text-align: center;
+  }
+  .origin-subcontent {
+    text-align: center;
+  }
+}
+@media (max-width: 991.98px) {
+  .origin-container {
+    height: 1300px;
+  }
+}
+
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+  .origin-container {
+    height: 1200px;
+  }
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .origin-container {
+    height: 900px;
+  }
+  .origin-title {
+    font-size: 24px !important;
+  }
+
+  .origin-content {
+    font-size: 14px !important;
+  }
+  .origin-subcontent {
+    font-size: 12px !important;
+  }
+}
+
+
+
+/* Medium devices (tablets, less than 992px) */
+
+
+
+@media(max-width: 459.98px) {
+  .origin-title {
+    font-size: 43px;
+    text-align: center;
+  }
+  .origin-container {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+}
+
+@media(max-width: 379.98px) {
+
+}
+@media(max-width: 900px) {
+  .wrap-origin {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+}

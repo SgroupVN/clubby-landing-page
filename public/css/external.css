@@ -1,0 +1,36 @@
+.modal-close-btn {
+    display: block;
+    color: #005398;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffffff !important;
+
+    margin: auto;
+    padding: 6px;
+    text-align: center;
+}
+
+.popup-input-wrapper {
+    position: relative;
+    margin: 1rem auto;
+}
+
+.popup-placeholder {
+    color: black !important;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translate(0, -50%);
+    font-size: 14px !important;
+}
+
+.popup-input {
+    height: 4rem;
+    font-size: 18px!important;
+    padding-top: 1rem;
+}
+
+.pop-up-content.popup-input:focus ~ .pop-up-content.popup-placeholder {
+    color: #ffffff !important;
+}
